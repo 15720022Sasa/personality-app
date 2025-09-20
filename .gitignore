@@ -1,0 +1,21 @@
+# Ignore node modules
+node_modules/
+
+# Ignore build files
+build/
+
+# Ignore Directus local files
+personality-directus/
+
+# Ignore backend local files
+personality-backend/
+
+# Ignore temp/test files
+test.sh
+Schema.json
+user-policy.json
+personalities.json
+questions.json
+
+# Ignore environment files
+.env

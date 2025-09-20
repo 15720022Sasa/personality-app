@@ -1,0 +1,147 @@
+/* Result.css */
+
+.result-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5; /* لون خلفية خفيف */
+  min-height: 100vh;
+}
+
+.result-card {
+  background-color: #fff;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 30px;
+  margin: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: #d3b24d;
+}
+
+.type {
+  font-size: 18px;
+  color: #666;
+}
+
+.description {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.attributes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.attr-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.attr-item {
+  background-color: #f0f4ff;
+  color: #1a1a1a;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: default;
+}
+
+.attr-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.result-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.result-card {
+  max-width: 800px;
+  width: 100%;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto 1rem auto;
+  object-fit: cover;
+  border: 3px solid #4a90e2;
+}
+
+.header .name {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.header .type {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.description {
+  margin: 1rem 0 2rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.attributes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.attr-block {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  min-width: 180px;
+}
+
+.attr-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.attr-item {
+  background: #4a90e2;
+  color: #fff;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
