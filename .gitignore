@@ -5,11 +5,9 @@ node_modules/
 build/
 
 # Ignore Directus local files
-personality-directus/
+# personality-directus/
 
-# Ignore backend local files
-personality-backend/
-
+ 
 # Ignore temp/test files
 test.sh
 Schema.json
